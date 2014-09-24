@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<head>
+<link href="css/bootstrap.css" rel="stylesheet" />
+<link href="css/bootstrap.min.css" rel="stylesheet" />
+<link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+<script src="js/jquery-1.9.0.js"></script>
+<script src="http://jqueryvalidation.org/files/dist/jquery.validate.min.js"></script>
+<script type="text/javascript" src="js/ValidationFormScript.js"></script>
+</head>
+<body>
+<form class="form-horizontal" id="form1">
+<fieldset>
+
+<!-- Form Name -->
+<legend><center>Validation Form</center></legend>
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="Email">Email</label>  
+  <div class="col-md-3">
+  	<div class="input-group">
+  <span class="input-group-addon"><i class="fa fa-envelope-o fa-fw"></i></span>
+  <input id="Email" name="Email" type="text" placeholder="Enter Your Email" class="form-control input-md">
+    
+  </div>
+</div>
+</div>
+
+
+<!-- Password input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="Password">Password</label>
+  <div class="col-md-3">
+<div class="input-group">
+  <span class="input-group-addon"><i class="fa fa-key fa-fw"></i></span>
+    <input id="password" name="password" type="password" placeholder="Enter Your Password" class="form-control input-md">
+    
+  </div>
+</div>
+</div>
+
+
+<!-- Password input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="ConfirmPassword">Confirm Password</label>
+  <div class="col-md-3">
+	<div class="input-group">
+    <span class="input-group-addon"><i class="fa fa-key fa-fw"></i></span>
+    <input id="password_again" name="password_again" type="password" placeholder="Enter Your Password Again" class="form-control input-md">
+    
+  </div>
+</div>
+</div>
+
+
+<!-- Button -->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="Submit"></label>
+  <div class="col-md-4">
+    <button id="Submit" class="btn btn-success" type="Submit">Press To Validate</button>
+  </div>
+</div>
+
+</fieldset>
+</form>
+<script src="js/jquery-1.9.0.js"></script>
+<script src="http://jqueryvalidation.org/files/dist/jquery.validate.min.js"></script>
+<script src="js/bootstrap.js"></script>
+
+
+</body>
+
+</html>
